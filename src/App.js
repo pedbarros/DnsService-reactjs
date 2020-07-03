@@ -1,16 +1,11 @@
 import React from 'react';
-import logo from './logo.svg';
+import DefaultLayout from './_layouts/default';
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          DNS Service
-        </p>
-      </header>
-    </div>
+    <DefaultLayout>
+      <div>Ok google</div>
+    </DefaultLayout>
   );
 }
 
